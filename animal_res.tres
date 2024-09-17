@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Animal" load_steps=2 format=3 uid="uid://cxrpgp0c7vthh"]
+
+[ext_resource type="Script" path="res://animal.gd" id="1_156wf"]
+
+[resource]
+script = ExtResource("1_156wf")
+animal_name = "ret"
