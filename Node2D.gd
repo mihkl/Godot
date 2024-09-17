@@ -29,3 +29,6 @@ class tuple:
 	func _init(first: int, second: int) -> void:
 		self.first = first
 		self.second = second
+		
+func _physics_process(delta: float) -> void:
+	rotation = rotation + (0.5 * delta)
